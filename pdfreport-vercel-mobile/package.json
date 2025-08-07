@@ -1,0 +1,9 @@
+{
+  "name": "pdfreport-vercel",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "pdfkit": "0.14.0",
+    "node-fetch": "2.6.7"
+  }
+}

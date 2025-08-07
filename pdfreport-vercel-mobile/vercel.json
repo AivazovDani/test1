@@ -1,0 +1,11 @@
+{
+  // Serve all files from the `public` directory at the root URL. Without
+  // this rewrite, Vercel would only serve `public/index.html` from
+  // `/public` instead of the root, which would break direct navigation.
+  "rewrites": [
+    { "source": "/", "destination": "/public/index.html" },
+    { "source": "/(.*)", "destination": "/public/$1" }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
